@@ -105,6 +105,59 @@ body {
     text-transform: capitalize;
 }
 
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.minim,
+.maxim {
+    display: flex;
+    align-items: center;
+}
+
+.minim {
+    margin-left: 20px;
+}
+
+.maxim {
+    margin-right: 20px;
+}
+
+.details i {
+    font-size: 30px;
+}
+
+.details .text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.text span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.location_not_found {
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location_not_found img {
+    width: 80%;
+}
+
+.location_not_found h1 {
+    font-size: 20px;
+    color: brown;
+    margin-block-end: 15px;
+}
+
 .container button {
     font-size: 30px;
     display: flex;

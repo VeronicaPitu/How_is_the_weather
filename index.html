@@ -15,19 +15,42 @@
     <div class="container">
         <div class="header">
             <div class="search">
-                <input type="text" placeholder="Search a city" class="input_box">
+                <input type="text" placeholder="Enter a city name" class="input_box">
 
-                <button class="fa-solid fa-magnifying-glass"></button>
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
             </div>
         </div>
         <button class="fa-sharp fa-solid fa-star" id="Favorites"></button>
+
+        <div class="location_not_found">
+            <h1>Location not found. Try angain</h1>
+            <img src="/assets/logo.png" alt="404 Error">
+        </div>
         <div class="weather_body">
             <p class="city">Linarolo</p>
             <img src="assets/logo.png" alt="Weather Image" class="weather_img">
             <div class="weather_box">
-                <p class="degreeC">0<sup>°C</sup></p>
+                <p class="degreeC">23°C</p>
 
                 <p class="description">Light Rain</p>
+            </div>
+
+            <div class="details">
+                <div class="minim">
+                    <i class="fa-solid fa-temperature-arrow-down"></i>
+                    <div class="text">
+                        <span id="minim">20<sup>°C</sup></span>
+                        <p>Min.</p>
+                    </div>
+                </div>
+
+                <div class="maxim">
+                    <i class="fa-solid fa-temperature-arrow-up"></i>
+                    <div class="text">
+                        <span id="maxim">29°C</span>
+                        <p>Max.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -36,9 +59,10 @@
         <span class="visually-hidden">Loading...</span>
       </div>
 -->
-
-    <script src="https://kit.fontawesome.com/01c9d2d788.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/01c9d2d788.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
